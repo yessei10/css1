@@ -1,0 +1,41 @@
+// * {
+//     outline: 1px dotted red;
+// }
+
+// .navbtn {
+//     width: fit-content;
+//     margin: 0px auto;
+// }
+
+
+.navbtn button {
+    width: 150px;
+    height: 100px;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+// Mobile
+@media only screen and (max-width: 480px) {
+    .navbtn button {
+        background-color: yellow;
+        font-size: 100%;
+        width: 100%;
+
+    }
+}
+// Tablet
+@media only screen and (min-width: 481px) {
+    .navbtn button {
+        background-color: blue;
+        font-size: 150%;
+        width: 49%;
+    }
+}
+// Desktop
+@media only screen and (min-width: 1024px) {
+    .navbtn button {
+        background-color: red;
+        font-size: 220%;
+        width: 24%;
+    }
+}
